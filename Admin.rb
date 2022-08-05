@@ -1,3 +1,5 @@
+require "./AdminAccess.rb"
+
 class Admin
     def initialize
         puts "Welcome, admin."
@@ -20,7 +22,8 @@ class Admin
             if(choice == '1')
                 puts "Showing all..."
             elsif(choice == '2')
-                puts "Creating..."
+                # puts "Creating..."
+                AdminAccess.create
             elsif(choice == '3')
                 puts "Showing..."
             elsif(choice == '4')

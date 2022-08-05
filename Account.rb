@@ -53,6 +53,10 @@ class Account
         @amount = ($stdin.gets.chomp).to_f
     end
     def get_amount()
-        return @amount
+        return @amount.to_s
+    end
+
+    def show()
+        return @id.to_s + "#" + @name + "#" + @address + "#" + @age.to_s + "#" + @amount.to_s
     end
 end
