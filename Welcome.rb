@@ -1,5 +1,5 @@
-# Create an instance of this class
-# to show a customized welcome screen
+# *** Create an instance of this class
+# *** to show a customized welcome screen
 
 class Welcome
     def initialize()

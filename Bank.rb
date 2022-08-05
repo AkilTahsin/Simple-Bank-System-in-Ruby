@@ -1,4 +1,6 @@
-require "./Account.rb"
+# *** Main screen of the program
+
+# require "./Account.rb"
 require "./Welcome.rb"
 require "./Login.rb"
 
